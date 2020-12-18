@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}s
+/* 1rem= 10px */
+header {width: 100%; height:9.3rem; position: fixed;}
+header > nav{width: 102.4rem; background-color:#FFFFFF; margin:auto; display:flex; justify-content: space-between; align-items: center; height: 7rem;}
+header > nav > .menu {display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li {float: left; margin: 0rem 4.6rem; }	 
+header > nav > .menu > ul > li > a {color:#000000; font-family: 'Press Start 2P', cursive; font-size:1.5rem; font-weight: 400; letter-spacing:-0.1rem;}	
+header > nav > .menu > ul > li > a:hover {color:#123484;}
+
+section> .keyvisual {background-image: url("../img/keyvisual.png"); height: 70rem; background-repeat:no-repeat; background-position: center;}
+section> .keyvisual > .keyvisual_wrap {margin:auto; width: 102.4rem; height: 700px; }
+section> .keyvisual > .keyvisual_wrap > .keyvisual_title {padding-top:10rem; text-align: center;}
+section> .profile {height: 125rem;}
+section> .profile > .profile_wrap {margin: auto; width:102.4rem;}
+section> .profile > .profile_wrap > .profile_01 {padding-top: 11.5rem;}
+section> .profile > .profile_wrap > .profile_02 {padding-top: 13rem;}
+
+
+section> .pf_1 {height: 87.5rem;}
+section> .pf_1 > .pf_wrap{margin:auto; width: 102.4rem; text-align:center;}
+section> .pf_1 > .pf_tit_menu {}
+section> .pf_1 > .pf_wrap > .pf_tit_1{padding-top: 9.5rem; padding-bottom: 3.9rem; float: left;}
+section> .pf_1 > .pf_wrap > .pf_img_1{margin-top: 3.9rem;}
+section> .pf_1 > .pf_wrap > .pf_txt_1{padding-top: 3.5rem;}
+
+
+section> .pf_2 {height: 95.9rem;}
+section> .pf_2 > .pf_wrap2{margin:auto; width: 102.4rem; text-align:center;}
+section> .pf_2 > .pf_wrap2 > .pf_tit_2{padding-top: 5.6rem; padding-bottom: 8rem; float: left;}
+section> .pf_2 > .pf_wrap2 > .pf_img_2{padding-bottom: 7.8rem;}
+section> .pf_2 > .pf_wrap2 > .pf_txt_2{}
+
+section> .pf_3 {height: 82.5rem;}
+section> .pf_3 > .pf_tit_menu {}
+section> .pf_3 > .pf_wrap3{margin:auto; width: 102.4rem; text-align:center;}
+section> .pf_3 > .pf_wrap3 > .pf_tit_3{padding-top: 14.8rem; padding-bottom: 6.4rem; float: left;}
+section> .pf_3 > .pf_wrap3 > .pf_img_3{padding-bottom: 5.6rem;}
+section> .pf_3 > .pf_wrap3 > .pf_txt_3{padding-bottom: 5rem;}
+
+section> .pf_4 {height: 102.4rem;}
+section> .pf_4 > .pf_wrap4{margin:auto; width: 102.4rem; text-align: center;}
+section> .pf_4 > .pf_wrap4 > .pf_tit_4{padding-top: 5.6rem; padding-bottom: 7.3rem; float: left;}
+section> .pf_4 > .pf_wrap4 > .pf_img_4{padding-bottom: 7.3rem;}
+section> .pf_4 > .pf_wrap4 > .pf_txt_4{}
+
+section> .pf_5 {height: 102.9rem;}
+section> .pf_5 > .pf_tit_menu {}
+section> .pf_5 > .pf_wrap5{margin:auto; width: 102.4rem; text-align:center;}
+section> .pf_5 > .pf_wrap5 > .pf_tit_5{padding-top: 14rem; padding-bottom: 7.7rem; float: left;}
+section> .pf_5 > .pf_wrap5 > .pf_img_5{padding-bottom: 8.8rem;}
+section> .pf_5 > .pf_wrap5 > .pf_txt_5{}
+
+section> .pf_6 {height: 95.2rem;}
+section> .pf_6 > .pf_wrap6{margin:auto; width: 102.4rem; text-align: center;}
+section> .pf_6 > .pf_wrap6 > .pf_tit_6{padding-top: 3.8rem; padding-bottom: 6.8rem; float: left;}
+section> .pf_6 > .pf_wrap6 > .pf_img_6{padding-bottom: 9.9rem;}
+section> .pf_6 > .pf_wrap6 > .pf_txt_6{}
+
+section> .pf_7 {height: 99.8rem;}
+section> .pf_7 > .pf_wrap7{margin:auto; width: 102.4rem; text-align: center;}
+section> .pf_7 > .pf_wrap7 > .pf_tit_7{padding-top: 4rem; padding-bottom: 7rem; float: left;}
+section> .pf_7 > .pf_wrap7 > .pf_img_7{padding-bottom:6rem;}
+section> .pf_7 > .pf_wrap7 > .pf_txt_7{}
+
+section> .pf_8 {height: 97rem;}
+section> .pf_8 > .pf_tit_menu {}
+section> .pf_8 > .pf_wrap8{margin:auto; width: 102.4rem; text-align:center;}
+section> .pf_8 > .pf_wrap8 > .pf_tit_8{padding-top: 12rem; padding-bottom: 7.6rem; float: left;}
+section> .pf_8 > .pf_wrap8 > .pf_img_8{padding-bottom: 3rem;}
+section> .pf_8 > .pf_wrap8 > .pf_txt_8{}
+
+section> .pf_9 {height: 99.6rem;}
+section> .pf_9 > .pf_wrap9{margin:auto; width: 102.4rem; text-align: center;}
+section> .pf_9 > .pf_wrap9 > .pf_tit_9{padding-top: 4rem; padding-bottom: 3.4rem; float: left;}
+section> .pf_9 > .pf_wrap9 > .pf_img_9{padding-bottom:3.6rem;}
+section> .pf_9 > .pf_wrap9 > .pf_txt_9{padding-bottom:14rem;}
+
+.footer_form{height: 94px; width: 1920px; background-color:#06246C;}
+.footertext_form{color: #ffffff; font-size: 1.8em; font-weight: 200; text-align: center; position: relative; top:40%;}
+
+.top_bt{background-image: url("../img/top butten_02.png"); position: fixed; width: 6.6rem; height: 6.6rem; right:20rem; bottom:5rem;}
+
+.top_bt:hover{background-image: url("../img/top butten.png");}
+

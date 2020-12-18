@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;}
+
+html {font-size: 10px;}
+body {font-size: 1rem;}
+a{text-decoration: none; color: #1D0DE5;}
+
+header{height:8rem; text-align: center;}
+header >.logo{padding-top:2.7rem;}
+
+section > .keyvisual {text-align: center; background-image: url("../img/m_keyvisual.png"); height: 64.4rem;}
+
+section > .keyvisual > .keyvisual_1 img{padding-top: 7.7rem;}
+
+section > .profile {text-align: center;}
+section > .profile >.profile_00 > img {padding-right:16.5rem; padding-top: 5.8rem;}
+section > .profile >.profile_01 > img {padding-top: 5.1rem;}
+section > .profile >.profile_02 > img {padding-top: 5rem;}
+section > .profile >.profile_03 > img {padding-top: 2.8rem;}
+section > .profile >.profile_04 > img {padding-top: 2.8rem;}
+section > .profile >.profile_05 > img {padding-top: 2.8rem;}
+section > .profile >.profile_06 > img {padding-top: 2.8rem;}
+
+.pf1, .pf2, .pf3, .pf4 {text-align: center;}
+section> .pf1 > .pf1_1 > img {padding-top: 8.5rem;}
+section> .pf1> .pf1_2 > img {padding-top: 5.4rem;}
+
+section> .pf2> .pf2_1 > img {padding-top: 13.6rem;}
+section> .pf2> .pf2_2 > img {padding-top: 8.2rem;}
+
+section> .pf3> .pf3_1 > img {padding-top: 13.6rem;}
+section> .pf3> .pf3_2 > img {padding-top: 8.2rem;}
+section> .pf3> .pf3_3 > img {padding-top: 8.2rem;}
+
+
+section> .pf4> .pf4_1 > img {padding-top: 13.6rem;}
+section> .pf4> .pf4_2 > img {padding-top: 8.2rem; padding-bottom: 11rem;}
+
+
+.footer {background-color: #06246C; height:8.7rem; text-alian: center;} 
+.footer> .footer_1 > img {text-alian: center; margin-top:3.6rem; margin-left:5.4rem;}
